@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>e-learning Homepage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+      #explore{
+          background-color: skyblue;
+          border-radius: 10px;
+          color: white;
+          width: fit-content;
+      }
+      #explore:hover{
+          box-shadow: 0px 3px 4px rgb(117, 140, 241);
+      }
+      #search{
+        margin-left: 100px;
+      }
+      #admin{
+        margin-left: 100px;
+      }
+      #login{
+        margin-left: 100px;
+      }
+      #signup{
+        margin-left: 30px;
+      }
+      #signup:hover{
+        box-shadow: 0px 3px 16px skyblue;
+      }
+      #login:hover{
+        box-shadow: 0px 3px 16px skyblue;
+      }
+      .container-fluid{
+        background-image: url(https://images.shiksha.com/mediadata/images/articles/1501826796php9PdbHO.jpeg);
+      }
+  </style>
+</head>
+<body style="height:1500px">
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+  
+  <a class="navbar-brand" href="login.html"><img src="contents/E-Learning-Free-PNG-Image.png" width="60px" height="40px"></a>
+
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Explore
+    </button>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+
+
+        <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <form id="admin" action="#">
+                <button class="btn btn-primary" type="submit">For admins</button>
+            </form>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li> 
+      </ul>
+    </div> 
+
+
+
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">course x</a>
+      <a class="dropdown-item" href="#">course y</a>
+      <a class="dropdown-item" href="#">course z</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" id="explore" href="#">Explore all the other courses</a>
+    </div>
+  </div>
+  <div>
+        <form id="search" class="form-inline" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Find your course here">
+          <button class="btn btn-primary" type="submit">Find</button>
+        </form>
+      </div>
+
+      <div>
+        <form id="login" action="#">
+          <button class="btn btn-primary" type="submit">Login</button>
+        </form>
+      </div>
+      <div>
+        <form id="signup" action="#">
+          <button class="btn btn-primary" type="submit">Signup</button>
+        </form>
+      </div>
+      
+</nav>
+
+
+<div class="container-fluid" style="margin-top:80px">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+
+</body>
+</html>
