@@ -2,7 +2,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Login page</title>
+
+  <link rel = "icon" type = "image/png" href = "contents/Screenshot 2019-08-23 at 12.58.06 AM.png">
+  
+  <!-- For apple devices -->
+
+  <link rel = "apple-touch-icon" type = "image/png" href = "contents/a9ddcd5c-75bc-4fe2-8891-67256733ba05_200x200.png"/>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -10,25 +17,26 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <style>
+
   #brand_style{
-  	font-family: Comic Sans MS,Sans;
-    font-size: 18px;
-    color: blue;
+    margin-top: -20px;
+    margin-bottom: -20px;
   }
-  #brand_style:hover{
-    box-shadow: 2px 2px 8px skyblue;
-  }
-  #mystyle{
-    background-color: tomato;
-    margin-right: 50%;
+
+
+
+
+  #collapse_style{
+    background-color: orange;
       }
+
   </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" id="brand_style" href="login.html">e-learning</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="mystyle">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a class="navbar-brand" id="brand_style" href="login.html"><img src="contents/a6e109bf-cef7-4d19-a6ac-278d43bbd2d4_200x200.png" width="70px" height="60px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="collapse_style">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -55,32 +63,11 @@
       </li>
     </ul>
       <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <input class="form-control mr-sm-2" type="search" placeholder="Find your course" aria-label="search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="contents/search-12-64.png" width="20px" height="20px"></button>
     </form>
   </div>
 </nav>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
